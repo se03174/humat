@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "850582623584",
+    "firebase_url": "https://test-1a4b0-default-rtdb.firebaseio.com",
+    "project_id": "test-1a4b0",
+    "storage_bucket": "test-1a4b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850582623584:android:7947163163b641e80f7a05",
+        "android_client_info": {
+          "package_name": "com.example.humat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850582623584-3hn8d5e04i9j5per8d6dl042vmcg9ohn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOjWjQqe3lrzhXMgTSW-lHSAU81ev6p20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850582623584-3hn8d5e04i9j5per8d6dl042vmcg9ohn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850582623584:android:b49ef415ab4b8c400f7a05",
+        "android_client_info": {
+          "package_name": "com.example.review"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850582623584-hcqb3m4dvhl45hu7li9cpp4djnb15get.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.review",
+            "certificate_hash": "bc2ae9001e7d1721bb4be8d4238eb2383a3e9b2e"
+          }
+        },
+        {
+          "client_id": "850582623584-3hn8d5e04i9j5per8d6dl042vmcg9ohn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOjWjQqe3lrzhXMgTSW-lHSAU81ev6p20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850582623584-3hn8d5e04i9j5per8d6dl042vmcg9ohn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850582623584:android:1b444713dd1cd20c0f7a05",
+        "android_client_info": {
+          "package_name": "com.example.weather_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850582623584-3hn8d5e04i9j5per8d6dl042vmcg9ohn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOjWjQqe3lrzhXMgTSW-lHSAU81ev6p20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850582623584-3hn8d5e04i9j5per8d6dl042vmcg9ohn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

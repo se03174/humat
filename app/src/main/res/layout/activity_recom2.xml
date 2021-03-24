@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecomActivity2"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/map_view4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/reviewBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/review_"
+            android:onClick="Recom2Click"
+            android:paddingRight="20dp" />
+
+        <Button
+            android:id="@+id/webBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/web_"
+            android:onClick="Recom2Click" />
+
+        <Button
+            android:id="@+id/callBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/call_"
+            android:onClick="Recom2Click" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/dataLST3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/search_layout_back">
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.65"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/trackonBTN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbox2"
+            android:onClick="Recom2Click"
+            android:text="Tracking On"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/trackoffBTN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundbox2"
+            android:onClick="Recom2Click"
+            android:text="Tracking OFF"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

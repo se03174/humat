@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">humat</string>
+    <string name="restapi_key">KakaoAK 313eb4b9f60e1f88bdcf8d38c8cd6cdc</string>
+    <string name="name">NAME</string>
+    <string name="phone">PHONE</string>
+    <string name="address">ADDRESS</string>
+    <string name="search">SEARCH</string>
+</resources>

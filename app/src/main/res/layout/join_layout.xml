@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/Name_ETXT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundbox"
+        android:ems="10"
+        android:fontFamily="@font/notosansk_light"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Email_ETXT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbox"
+        android:ems="10"
+        android:fontFamily="@font/notosansk_light"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/RPass_ETXT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbox"
+        android:ems="10"
+        android:fontFamily="@font/notosansk_light"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Passck_ETXT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbox"
+        android:ems="10"
+        android:fontFamily="@font/notosansk_light"
+        android:gravity="center"
+        android:hint="Password-check"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Register_BTN"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Passck_ETXT"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/roundbox2"
+
+        android:fontFamily="@font/notosansk_regular"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/review_write_"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/show_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/review_read_"
+            android:onClick="onClick" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/search_layout_back"
+        android:ems="10"
+        android:fontFamily="@font/notosansk_light"
+        android:hint="리뷰를 작성해주세요."
+        android:inputType="textPersonName" />
+
+    <ListView
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/search_layout_back"/>
+
+</LinearLayout>
